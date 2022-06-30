@@ -6,16 +6,14 @@
 
 /* ----- Header ----- */
 
-header{
-    color: white;
-}
-
 .header-titulos {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     text-align: center;
+
+    color: white;
 
     padding: 20px;
     height: 45vh;
@@ -34,63 +32,28 @@ header{
 
 /* ----- Nav ----- */
 
-header nav ul a{
-    display: flex;
-    flex-direction: column;
-
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-
-    background-color: black;
-
-    border-style: solid;
-    border-color: beige;
-    border-width: 2px;
-
-    padding: 4px;
-    text-align: center;
-    font-size: 0.8rem;
-
-    width: 100%;
-}
-
-hr{
-    color: antiquewhite;
-    height: 0px;
-    clear: both;
-}
-
 /* ----- Quienes somos ----- */
 
 .quienes-somos {
-    padding: 30px;
-
+    padding: 15px;
     background-color: beige;
-}
-
-.quienes-somos img {
-    width: 100%;
-}
-
-.quienes-somos-texto {
-    display: flex;
-    flex-direction: column;
 }
 
 .quienes-somos-texto h2{
     text-align: center;
+    height: 35px;
 }
 
 /* ----- Donde estamos ----- */
 
 .donde-estamos {
-    padding: 30px;
+    padding: 15px;
     background-color: beige;
 }
 
 .donde-estamos h2{
     text-align: center;
+    height: 50px;
 }
 
 .donde-estamos a img {
@@ -99,23 +62,17 @@ hr{
 
 /* ----- Fotos ----- */
 
-.fotos img{
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
-
+#carouselExampleIndicators {
     padding: 10px;
+    background-color: beige;
+    width: 80%;
 }
 
 /* ----- Footer ----- */
 
 .footer {
     width: 100%;
-
     background-color: black;
-
 }
 
 .footer-redes {
@@ -136,27 +93,22 @@ hr{
 /* :::::::::: nuestrahistoria.html :::::::::: */
 
 .nuestra-historia {
-    padding: 30px;
-
+    padding: 15px;
     background-color: beige;
 }
 
-.nuestra-historia img {
-    width: 100%;
-}
-
-.nuestra-historia-texto {
-    display: flex;
-    flex-direction: column;
-}
-
-.nuestra-historia-texto h2{
+.nuestra-historia h2{
     text-align: center;
+    height: 50px;
+}
+
+.nuestra-historia a img {
+    width: 100%;
 }
 
 /* ==================== RESPONSIVE ==================== */
 
-@media (min-width: 1024px) {
+@media (nada) {
 
     /* ----- @Nav ----- */
     /* Acá es donde tuve el problema con la adaptación del nav */
