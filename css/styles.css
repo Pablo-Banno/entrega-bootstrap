@@ -1,0 +1,167 @@
+/* font-family: 'Mukta', sans-serif; */
+
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+/* ----- Header ----- */
+
+header{
+    color: white;
+}
+
+.header-titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 20px;
+    height: 45vh;
+
+    background-image: url(../imagenes/fondo-header.jpg);
+    background-size: cover;
+}
+
+.header-titulos h1 {
+    font-size: 2.2rem;
+}
+
+.header-titulos h2 {
+    font-size: 1.2rem;
+}
+
+/* ----- Nav ----- */
+
+header nav ul a{
+    display: flex;
+    flex-direction: column;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+    background-color: black;
+
+    border-style: solid;
+    border-color: beige;
+    border-width: 2px;
+
+    padding: 4px;
+    text-align: center;
+    font-size: 0.8rem;
+
+    width: 100%;
+}
+
+hr{
+    color: antiquewhite;
+    height: 0px;
+    clear: both;
+}
+
+/* ----- Quienes somos ----- */
+
+.quienes-somos {
+    padding: 30px;
+
+    background-color: beige;
+}
+
+.quienes-somos img {
+    width: 100%;
+}
+
+.quienes-somos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.quienes-somos-texto h2{
+    text-align: center;
+}
+
+/* ----- Donde estamos ----- */
+
+.donde-estamos {
+    padding: 30px;
+    background-color: beige;
+}
+
+.donde-estamos h2{
+    text-align: center;
+}
+
+.donde-estamos a img {
+    width: 100%;
+}
+
+/* ----- Fotos ----- */
+
+.fotos img{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+
+    padding: 10px;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    width: 100%;
+
+    background-color: black;
+
+}
+
+.footer-redes {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.footer-redes p{
+    font-weight: bold;
+}
+
+.footer-redes i {
+    font-size: 2rem;
+    color: white;
+}
+
+/* :::::::::: nuestrahistoria.html :::::::::: */
+
+.nuestra-historia {
+    padding: 30px;
+
+    background-color: beige;
+}
+
+.nuestra-historia img {
+    width: 100%;
+}
+
+.nuestra-historia-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nuestra-historia-texto h2{
+    text-align: center;
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (min-width: 1024px) {
+
+    /* ----- @Nav ----- */
+    /* Acá es donde tuve el problema con la adaptación del nav */
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* nuestroscafes.html */
+}
